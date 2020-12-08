@@ -6,11 +6,11 @@ body {
 }
 
 .counties {
-    fill: transparent;
+    fill: lightblue;
     stroke: grey;
 }
 
 .states {
-    fill: lightgreen;
-    stroke: black;
+    fill: transparent;
+    stroke: steelblue;
 }
