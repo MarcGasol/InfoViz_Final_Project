@@ -8,14 +8,24 @@
         <link rel="stylesheet" href='styles.css'> 
     </head>
     <body>
+        <div style="margin-left:10px ;">
+            <label for="droplist" >Please select a month: </label>
+            <select name="droplist" id="listmonthdate">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="Jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="Aug">Aug</option>
+                <option value="Sep">Sep</option>
+            </select>
+        </div>
         <svg width="1100" height="700"></svg>
         <script src="main.js"></script>
-        <div>
-            <p>Month</p>
-            <input id='slider' type='range' min='1' max='9' value='5' step='1'>
-            <input type="text" id="slidertext" value="May">
-
-            <label for="droplist">Please select a state</label>
+        <div style="margin-left:150px ;">
+            <label for="droplist" >Please select a state: </label>
             <select name="droplist" id="list">
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
@@ -73,11 +83,9 @@
                 <option value="WV">West Virginia</option>
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
-                
             </select>
         </div>
-        <svg width="1100" height="900" id="svg2"></svg>
-        <script src="main2.js"></script>
-        
+        <svg width="1200" height="900" id="svg2"></svg>
+        <script src="main2.js"></script>    
     </body>
 </html>
