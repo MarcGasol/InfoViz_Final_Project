@@ -1,31 +1,32 @@
-.background {
-    fill: none;
-    pointer-events: all;
-}
-
-#states {
-    fill: #aaa;
-}
-
-#states .active {
-    display:none;
-}
-
-#state-borders {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 1.5px;
-    stroke-linejoin: round;
-    stroke-linecap: round;
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(243, 239, 22);
+    border: 0px;
+    border-radius: 6px;
     pointer-events: none;
+  }
+
+svg {
+  background-size: cover;
 }
 
-.county-boundary {
-    fill: #aaa;
-    stroke: #fff;
-    stroke-width: .5px;
+.x-axis {
+  color: black;
 }
 
-.county-boundary:hover, .state:hover {
-    fill: orange;
+.y-axis {
+  color: black;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.changeColor{
+  fill: #FF0000;
 }
